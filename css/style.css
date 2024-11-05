@@ -41,6 +41,17 @@
     background-color: #228b22;
 }
 
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .col-big{
+    background-color: #f08080;
+}
+
+.debug .col-small{
+    background-color: #20b2aa;
+}
 
 
 /*----------
@@ -144,4 +155,36 @@ section{
 
 #fourth-section{
     min-height: 900px;
+}
+
+/*----------------
+    FOOTER
+------------------*/
+
+
+/*----------------
+    FOOTER
+------------------*/
+
+.footer-top{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+#column-footer{
+    display: flex;
+    min-height: 580px;
+
+}
+ 
+/*----------------
+    COLUMN
+------------------*/
+.col-big{
+   width: 40%;
+}
+
+.col-small{
+    width: 15%;
+    border: 1px dashed white;
 }
