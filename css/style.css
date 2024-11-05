@@ -1,8 +1,64 @@
 /*----------
+    DEBUG
+----------*/
+
+.debug .header-top{
+    background-color: #add8e6;
+}
+
+.debug #header-group{
+    background-color:#daa520;
+}
+
+#header-group > *{
+    border: 1px dashed black;
+}
+
+
+
+
+/*----------
     RESET
 ----------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*----------
+    GENERAL
+----------*/
+.container{
+    max-width: 1200px;
+    margin:auto
+}
+
+/*----------
+    HEADER
+----------*/
+
+.header-top{
+    min-height:80px;
+    padding: 18px 0;
+}
+
+#header-group{
+    display: flex;
+    padding: 6px;
+}
+
+
+.logo , .login{
+    min-width: 20%;
+}
+
+.link{
+   width: 60%;
+   text-align: center;
+
+}
+
+.login{
+    text-align: right;
 }
