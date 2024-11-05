@@ -53,6 +53,14 @@
     background-color: #20b2aa;
 }
 
+.debug #end-page{
+    background-color: #7fffd4;
+}
+
+.debug .end-logo , .button{
+    background-color: #ffb6c1;
+}
+
 
 /*----------
     RESET
@@ -163,7 +171,7 @@ section{
 
 
 /*----------------
-    FOOTER
+    FOOTER TOP
 ------------------*/
 
 .footer-top{
@@ -188,3 +196,26 @@ section{
     width: 15%;
     border: 1px dashed white;
 }
+
+/*----------------
+    FOOTER-BOTTOM
+------------------*/
+.footer-bottom{
+    border-top: 2px solid white;
+    padding-top: 30px;
+}
+
+#end-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.end-logo , .button{
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+
+
