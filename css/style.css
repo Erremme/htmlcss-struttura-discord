@@ -33,6 +33,10 @@
     background-color: #ffc0cb;
 }
 
+.debug #grey{
+    background-color: #d3d3d3;
+}
+
 
 
 /*----------
@@ -124,4 +128,12 @@ section{
 .small{
     width: 30%;
     min-height: 500px;
+}
+
+#second-section{
+    display: flex;
+}
+
+#third-section{
+    display: flex;
 }
