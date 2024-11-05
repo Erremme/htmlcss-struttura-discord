@@ -33,8 +33,12 @@
     background-color: #ffc0cb;
 }
 
-.debug #grey{
+.debug .grey{
     background-color: #d3d3d3;
+}
+
+.debug #fourth-section{
+    background-color: #228b22;
 }
 
 
@@ -136,4 +140,8 @@ section{
 
 #third-section{
     display: flex;
+}
+
+#fourth-section{
+    min-height: 900px;
 }
