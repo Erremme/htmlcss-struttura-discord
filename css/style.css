@@ -10,9 +10,7 @@
     background-color:#daa520;
 }
 
-#header-group > *{
-    border: 1px dashed black;
-}
+
 
 .debug .header-bottom{
     background-color: #00008b;
@@ -23,6 +21,17 @@
     background-color: #ee82ee;
 }
 
+.border{
+    border: 1px dashed black;
+}
+
+.debug .big{
+    background-color: #1e90ff;
+}
+
+.debug .small{
+    background-color: #ffc0cb;
+}
 
 
 
@@ -89,4 +98,30 @@
     max-width: 900px;
     min-height: 400px;
     margin: auto;
+}
+
+/*----------------
+    MAIN
+------------------*/
+
+/*----------------
+    MAIN-SECTION
+------------------*/
+section{
+    padding: 50px 0;
+}
+
+#first-section{
+    display: flex;
+    
+}
+
+.big{
+    width: 70%;
+    min-height: 500px;
+}
+
+.small{
+    width: 30%;
+    min-height: 500px;
 }
